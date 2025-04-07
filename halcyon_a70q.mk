@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from a70q device
 $(call inherit-product, device/samsung/a70q/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common halcyon stuff.
+$(call inherit-product, vendor/halcyon/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_a70q
+PRODUCT_NAME := halcyon_a70q
 PRODUCT_DEVICE := a70q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A705
